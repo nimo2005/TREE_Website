@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tree Encyclopedia</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Tree Encyclopedia</h1>
+    </header>
+    <main>
+        <div id="tree-list">
+            <!-- Tree buttons will be dynamically added here -->
+        </div>
+        <div id="tree-info">
+            <!-- Tree information will be displayed here -->
+        </div>
+    </main>
+    <script src="{{ url_for('static', filename='script.js') }}" defer></script>
+</body>
+</html>
